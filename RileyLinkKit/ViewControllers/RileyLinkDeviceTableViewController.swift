@@ -225,7 +225,7 @@ public class RileyLinkDeviceTableViewController: UITableViewController {
                 cell.textLabel?.text = NSLocalizedString("Send Button Press", comment: "The title of the command to send a button press")
 
             case .ReadRemainingInsulin:
-                cell.textLabel?.text = NSLocalizedString("Read Remaining Insulin", comment: "The title of the command to read remaining insulin")
+                cell.textLabel?.text = NSLocalizedString("Read Remaining Reservoir", comment: "The title of the command to read remaining insulin in the reservoir")
             }
         }
 
